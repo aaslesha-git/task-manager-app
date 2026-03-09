@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Task Manager</h1>
+
+<button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+<br><br>
+
+<input type="text" id="taskInput" placeholder="Enter a task">
+<button onclick="addTask()">Add</button>
+
+<p>Total Tasks: <span id="taskCount">0</span></p>
+
+<ul id="taskList"></ul>
+
+<button onclick="clearTasks()">Clear All Tasks</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
